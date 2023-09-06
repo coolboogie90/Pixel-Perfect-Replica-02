@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Allan&family=Noto+Sans+Symbols:wght@300;600;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    font-family: 'Noto Sans Symbols';
+}
+
+body {
+    width: 100%;
+    background-color: #2D4480;
+    padding: 150px 0;
+}
+
+.card {
+    margin: 0 auto;
+    width: 288px;
+    height: 469px;
+    padding: 50px;
+
+    display: flexbox;
+    justify-content: center;
+    align-items: flex-start;
+
+    border-radius: 27px;
+    background: #fff;
+    box-shadow: 5px 20px 50px 0px rgba(0, 0, 0, 0.60);
+    overflow: hidden;
+
+    z-index: 1;
+}
+
+.card p,
+.card ul, .button p {
+    display: block;
+   
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.card .title {
+    font-weight: 300;
+    font-size: 2.25rem;
+    line-height: 100%;
+    margin-bottom: 28px;
+}
+
+.card p {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    letter-spacing: 4.68px;
+}
+
+.card p em {
+    text-transform: capitalize;
+    display: inline-block;
+    color: #2D4480;
+    font-family: 'Allan';
+    letter-spacing: 0;
+    font-weight: 400;
+    line-height: 36px;    
+    transform: translateX(50px);
+}
+
+.card ul {
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: left;
+}
+
+.card ul li {
+    background: url(./img/image-4.png) no-repeat left center;
+    padding: 5px 10px 5px 25px;
+    list-style: none;
+    margin-bottom: 5px;
+    vertical-align: middle;
+}
+
+.card .checked {
+    background: url(./img/check-green-icon-1.png) no-repeat left center;
+}
+
+#button {
+    display: flex;
+    padding: 20px 50px;
+    margin-top: 20px;
+    border-radius: 34px;
+    background: #FFBC0F;
+    justify-content: center;
+    text-align: center;
+    /*transform: translate(-50%);*/
+    z-index: 2;
+    position: absolute;
+    margin-left: -10px;
+}
+
+#button p{
+    color: #253868;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 0.96px;
+    text-transform: uppercase;
+}
+
+.list-feature{
+    padding-left:20px;
+}
